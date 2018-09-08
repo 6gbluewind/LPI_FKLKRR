@@ -5,23 +5,24 @@ Input: Similarity of lncRNAs, including K_GIP, K_SW, K_SF, K_EXP;
        Similarity of proteins, including K_GIP, K_SW, K_SF, K_GO
 Similarity matrices construction:
        Gauss similarity matrix is constructed by the kernel_gip.m
-      
+       
 The 5-fold cross-validation demo is "sample2_ridge.m"
 The leave one out cross-validation demo is "sample2_loo.m"
 ## Software
-
+       
 ## Data
 
 ## Result
 
 References:
 
-[1] Kent WJ, Sugnet CW, Furey TS, Roskin KM, Pringle TH, Zahler AM, et al. The human genome browser at UCSC. Genome Research. 2002;12(6):996-1006.
+[1] W. Zhang, Q. Qu, Y. Zhang, W. Wang, W. Zhang, Q. Qu, Y. Zhang, and W. Wang, “The linear neighborhood propagation method for predicting
+long non-coding RNA-protein interactions,” Neurocomputing, vol. 273, pp. 526–534, 2017.
 
-[2] Consortium EP. The ENCODE (ENCyclopedia of DNA elements) project. Science. 2004;306(5696):636-40.
+[2] J. He, S.F. Chang, and L. Xie, “Fast kernel learning for spatial pyramid matching,” in CVPR 2008, pp. 1–7, June 2008.
 
-[3] Davydov EV, Goode DL, Sirota M, Cooper GM, Sidow A, Batzoglou S. Identifying a High Fraction of the Human Genome to be under Selective Constraint Using GERP++. Plos Computational Biology. 2010;6(12):e1001025.
+[3] M. Stock, T. Pahikkala, A. Airola, B. D. Baets, and W. Waegeman, “Efficient pairwise learning using kernel ridge regression: an exact two step method,” 2016. arXiv:1606.04275 
 
-[4] Ke G, Meng Q, Finley T,Wang T, Chen W, Ma W, et al. LightGBM: A Highly Efficient Gradient Boosting Decision Tree. Advances in Neural Information Processing Systems. 2017, 3146–3154.
+[4] X. Zheng, Y. Wang, K. Tian, J. Zhou, J. Guan, L. Luo, and S. Zhou, “Fusing multiple protein-protein similarity networks to effectively
+predict lncRNA-protein interactions,” BMC Bioinformatics, vol. 18, no. Suppl 12, p. 420, 2017.
 
-[5] Chen T, He T, Benesty M, Khotilovich V, Tang Y. XGBoost: A Scalable Tree Boosting System. Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 2016.
