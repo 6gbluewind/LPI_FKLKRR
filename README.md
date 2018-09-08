@@ -17,12 +17,12 @@ Similarity matrices construction:
        
 #### Environment
 * MATLAB 
-* 3.7 GHz 4-core CPU
+* 4-core CPU
 * 20 GB memory
 * 64-bit Windows Operating Systems
 ### Data
        There are two datasets in the folder. 
-* Benchmark dataset is illustrated in [1].
+* Benchmark dataset is illustrated in [3].
 * Novel dataset is proposed in [4].
 ### Result
     bench_auc.fig, bench_loo_pr, bench_loo_roc.fig, bench_pr.fig and result.mat are the outcomes. Also, we give the case study results in local_cases folder.
