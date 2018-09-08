@@ -1,19 +1,31 @@
-# LPI_FKLKRR
-Identifying LPI with Kernel Ridge Regression based on Fast Kernel Learning
-## About
+Identifying LncRNA-Protein Interaction with Kernel Ridge Regression based on Fast Kernel Learning
+==== 
+### About
+We develop a novel prediction method of lncRNAs-protein interactions by using kernel ridge regression with multiple kernel learning approach. The output contains five files, named bench_auc.fig, bench_loo_pr, bench_loo_roc.fig, bench_pr.fig and result.mat. Generally, our method can handle prediction of LPI in several seconds with high performance machine.
+
 Input: Similarity of lncRNAs, including K_GIP, K_SW, K_SF, K_EXP;
        Similarity of proteins, including K_GIP, K_SW, K_SF, K_GO
 Similarity matrices construction:
-       Gauss similarity matrix is constructed by the kernel_gip.m
+       Gauss similarity matrix is constructed by the kernel_gip.m,
+       kernel_lncRNA_feature_CT, SW_lncRNA_Similarity, kernel_lncRNA_feature_expression, 
+       kernel_protein_feature_PsePSSM, SW_Protein_Similarity, protein_GO_Jacard in input_info.mat are precalculated similarity matrices.
        
-The 5-fold cross-validation demo is "sample2_ridge.m"
-The leave one out cross-validation demo is "sample2_loo.m"
-## Software
+### Software
+       To run our program, put the input_info.mat and the code files under the same directory.
+       The 5-fold cross-validation demo is "sample2_ridge.m"
+       The leave one out cross-validation demo is "sample2_loo.m"
        
-## Data
-
-## Result
-
+#### Environment
+* MATLAB 
+* 3.7 GHz 4-core CPU
+* 20 GB memory
+* 64-bit Windows Operating Systems
+### Data
+       There are two datasets in the folder. 
+* Benchmark dataset is illustrated in [1].
+* Novel dataset is proposed in [4].
+### Result
+    bench_auc.fig, bench_loo_pr, bench_loo_roc.fig, bench_pr.fig and result.mat are the outcomes. Also, we give the case study results in local_cases folder.
 References:
 
 [1] J. He, S.F. Chang, and L. Xie, “Fast kernel learning for spatial pyramid matching,” in CVPR 2008, pp. 1–7, June 2008.
