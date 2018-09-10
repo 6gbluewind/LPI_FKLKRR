@@ -20,10 +20,12 @@ The leave one out cross-validation demo is "sample2_loo.m"
 * 4-core CPU
 * 20 GB memory
 * 64-bit Windows Operating Systems
+
 ### Data
 There are two datasets in the folder. 
-* Benchmark dataset is illustrated in [3].
-* Novel dataset is proposed in [4].
+* Benchmark dataset is illustrated in [3]. This dataset contains 4158 lncRNA-protein interactions, 990 lncRNAs and 27 proteins.
+* Novel dataset is proposed in [4]. This novel dataset consists of 4467 LPIs, including 1050 unique lncRNAs and 84 unique proteins.
+
 ### Result
 bench_auc.fig, bench_loo_pr, bench_loo_roc.fig, bench_pr.fig and result.mat are the outcomes. <br />
 Also, we give the case study results in local_cases folder.
