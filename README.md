@@ -9,7 +9,7 @@ Similarity matrices construction:<br />
        Gauss similarity matrix is constructed by the kernel_gip.m,<br />
        kernel_lncRNA_feature_CT, SW_lncRNA_Similarity, kernel_lncRNA_feature_expression,<br />
        kernel_protein_feature_PsePSSM, SW_Protein_Similarity, protein_GO_Jacard in input_info.mat are precalculated similarity matrices.<br />
-Four kinds of kernels in lncRNA or protein space is fusing with fast kernel learning, which is achieved with fast_kernels_weight.m; KRR codes corresponds to tsKRR.m file. <br />
+Four kinds of kernels in lncRNA or protein space is fusing with fast kernel learning [1], which is achieved with fast_kernels_weight.m; KRR [2] codes corresponds to tsKRR.m file. <br />
 In practice, all the codes and results are packing in the form of .rar files to faciliate uploading or downloading. 
        
 ### Software
