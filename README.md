@@ -3,11 +3,11 @@ Identifying LncRNA-Protein Interaction with Kernel Ridge Regression based on Fas
 ### About
 We develop a novel prediction method of lncRNAs-protein interactions by using kernel ridge regression with multiple kernel learning approach. The output contains five files, named bench_auc.fig, bench_loo_pr, bench_loo_roc.fig, bench_pr.fig and result.mat. Generally, our method can handle prediction of LPI in several seconds with high performance machine.
 
-Input: Similarity of lncRNAs, including K_GIP, K_SW, K_SF, K_EXP;
-       Similarity of proteins, including K_GIP, K_SW, K_SF, K_GO
-Similarity matrices construction:
-       Gauss similarity matrix is constructed by the kernel_gip.m,
-       kernel_lncRNA_feature_CT, SW_lncRNA_Similarity, kernel_lncRNA_feature_expression, 
+Input: Similarity of lncRNAs, including K_GIP, K_SW, K_SF, K_EXP;<br />
+       Similarity of proteins, including K_GIP, K_SW, K_SF, K_GO<br />
+Similarity matrices construction:<br />
+       Gauss similarity matrix is constructed by the kernel_gip.m,<br />
+       kernel_lncRNA_feature_CT, SW_lncRNA_Similarity, kernel_lncRNA_feature_expression,<br />
        kernel_protein_feature_PsePSSM, SW_Protein_Similarity, protein_GO_Jacard in input_info.mat are precalculated similarity matrices.
        
 ### Software
@@ -25,7 +25,8 @@ Similarity matrices construction:
 * Benchmark dataset is illustrated in [3].
 * Novel dataset is proposed in [4].
 ### Result
-    bench_auc.fig, bench_loo_pr, bench_loo_roc.fig, bench_pr.fig and result.mat are the outcomes. Also, we give the case study results in local_cases folder.
+    bench_auc.fig, bench_loo_pr, bench_loo_roc.fig, bench_pr.fig and result.mat are the outcomes. <br />
+    Also, we give the case study results in local_cases folder.
 References:
 
 [1] J. He, S.F. Chang, and L. Xie, “Fast kernel learning for spatial pyramid matching,” in CVPR 2008, pp. 1–7, June 2008.
