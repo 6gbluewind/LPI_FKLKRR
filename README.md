@@ -1,7 +1,7 @@
 Identifying LncRNA-Protein Interaction with Kernel Ridge Regression based on Fast Kernel Learning
 ==== 
 ### About
-We develop a novel prediction method of lncRNAs-protein interactions by using kernel ridge regression with multiple kernel learning approach. The output contains five files, named bench_auc.fig, bench_loo_pr, bench_loo_roc.fig, bench_pr.fig and result.mat. Generally, our method can handle prediction of LPI in several seconds with high performance machine.
+We develop a novel prediction method of lncRNAs-protein interactions (LPIs) by using kernel ridge regression with multiple kernel learning approach. The output contains five files, named bench_auc.fig, bench_loo_pr, bench_loo_roc.fig, bench_pr.fig and result.mat. Generally, our method can handle prediction of LPIs in several seconds with high performance machine.
 
 Input: Similarity of lncRNAs, including K_GIP, K_SW, K_SF, K_EXP;<br />
        Similarity of proteins, including K_GIP, K_SW, K_SF, K_GO<br />
