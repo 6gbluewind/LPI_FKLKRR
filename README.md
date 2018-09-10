@@ -11,9 +11,9 @@ Similarity matrices construction:<br />
        kernel_protein_feature_PsePSSM, SW_Protein_Similarity, protein_GO_Jacard in input_info.mat are precalculated similarity matrices.
        
 ### Software
-       To run our program, put the input_info.mat and the code files under the same directory.
-       The 5-fold cross-validation demo is "sample2_ridge.m"
-       The leave one out cross-validation demo is "sample2_loo.m"
+To run our program, put the input_info.mat and the code files under the same directory.
+The 5-fold cross-validation demo is "sample2_ridge.m"
+The leave one out cross-validation demo is "sample2_loo.m"
        
 #### Environment
 * MATLAB 
@@ -21,13 +21,14 @@ Similarity matrices construction:<br />
 * 20 GB memory
 * 64-bit Windows Operating Systems
 ### Data
-       There are two datasets in the folder. 
+There are two datasets in the folder. 
 * Benchmark dataset is illustrated in [3].
 * Novel dataset is proposed in [4].
 ### Result
-    bench_auc.fig, bench_loo_pr, bench_loo_roc.fig, bench_pr.fig and result.mat are the outcomes. <br />
-    Also, we give the case study results in local_cases folder.
-References:
+bench_auc.fig, bench_loo_pr, bench_loo_roc.fig, bench_pr.fig and result.mat are the outcomes. <br />
+Also, we give the case study results in local_cases folder.
+
+### References:
 
 [1] J. He, S.F. Chang, and L. Xie, “Fast kernel learning for spatial pyramid matching,” in CVPR 2008, pp. 1–7, June 2008.
 
