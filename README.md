@@ -8,7 +8,8 @@ Input: Similarity of lncRNAs, including K_GIP, K_SW, K_SF, K_EXP;<br />
 Similarity matrices construction:<br />
        Gauss similarity matrix is constructed by the kernel_gip.m,<br />
        kernel_lncRNA_feature_CT, SW_lncRNA_Similarity, kernel_lncRNA_feature_expression,<br />
-       kernel_protein_feature_PsePSSM, SW_Protein_Similarity, protein_GO_Jacard in input_info.mat are precalculated similarity matrices.
+       kernel_protein_feature_PsePSSM, SW_Protein_Similarity, protein_GO_Jacard in input_info.mat are precalculated similarity matrices.<br />
+In practice, four kinds of kernels in lncRNA or protein space is fusing with fast kernel learning, which is achieved with fast_kernels_weight.m; KRR codes corresponds to tsKRR.m file. 
        
 ### Software
 To run our program, put the input_info.mat and the code files under the same directory.
